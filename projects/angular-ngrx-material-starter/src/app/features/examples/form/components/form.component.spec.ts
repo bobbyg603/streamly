@@ -59,14 +59,14 @@ describe('FormComponent', () => {
     const usernameInput = await getInput('username');
     const saveButton = await getSaveButton();
 
-    await usernameInput.setValue('tomastrajan');
+    await usernameInput.setValue('bobbyg603');
     await saveButton.click();
 
     expect(dispatchSpy).toHaveBeenCalledTimes(1);
     expect(dispatchSpy.calls.mostRecent().args[0].type).toBe('[Form] Update');
     expect(dispatchSpy.calls.mostRecent().args[0].form).toEqual({
       autosave: false,
-      username: 'tomastrajan',
+      username: 'bobbyg603',
       password: '',
       email: '',
       description: '',
@@ -80,7 +80,7 @@ describe('FormComponent', () => {
     const usernameInput = await getInput('username');
     const resetButton = await getResetButton();
 
-    await usernameInput.setValue('tomastrajan');
+    await usernameInput.setValue('bobbyg603');
     await resetButton.click();
     const usernameValue = await usernameInput.getValue();
 

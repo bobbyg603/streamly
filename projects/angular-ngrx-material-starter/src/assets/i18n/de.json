@@ -61,6 +61,6 @@
   "streamly.settings.themes.sticky-header": "",
   "streamly.settings.themes.title": "Thema",
   "streamly.settings.title": "Einstellungen",
-  "streamly.title.long": "Angular NgRx Material Vorlage",
-  "streamly.title.short": "Angular Vorlage"
+  "streamly.title.long": "Streamly",
+  "streamly.title.short": "Streamly"
 }
