@@ -129,18 +129,6 @@
               ]
             }
           }
-        },
-        "e2e": {
-          "builder": "@angular-devkit/build-angular:protractor",
-          "options": {
-            "protractorConfig": "projects/angular-ngrx-material-starter/e2e/protractor.conf.js",
-            "devServerTarget": "angular-ngrx-material-starter:serve"
-          },
-          "configurations": {
-            "production": {
-              "devServerTarget": "angular-ngrx-material-starter:serve:production"
-            }
-          }
         }
       }
     }
