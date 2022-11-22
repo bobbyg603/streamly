@@ -1,0 +1,46 @@
+<div class="container" rtl>
+  <div class="row">
+    <div class="col">
+      <h1 class="main-heading">{{ 'streamly.examples.form.title' | translate }}</h1>
+    </div>
+  </div>
+  <ng-container *ngIf="formValueChanges$ | async as updatedForm">
+  </ng-container>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <div class="row justify-content-center">
+      <div class="col-md-8">
+        <mat-card>
+          <div class="row">
+            <mat-form-field class="col" [ngClass]="routeAnimationsElements">
+              <input matInput placeholder="{{ 'streamly.examples.form.placeholder3' | translate }}"
+                formControlName="email" type="email">
+              <mat-error *ngIf="form.get('email')?.hasError('required')">
+                {{ 'streamly.examples.form.placeholder3' | translate }}
+                {{ 'streamly.examples.form.error1' | translate }}
+              </mat-error>
+              <mat-error *ngIf="form.get('email')?.hasError('email')">
+                {{ 'streamly.examples.form.placeholder3' | translate }}
+                {{ 'streamly.examples.form.error2' | translate }}</mat-error>
+            </mat-form-field>
+          </div>
+          <div class="row">
+            <mat-form-field class="col" [ngClass]="routeAnimationsElements">
+              <input matInput type="password" placeholder="{{ 'streamly.examples.form.placeholder2' | translate }}"
+                formControlName="password">
+              <mat-error *ngIf="form.get('password')?.invalid">
+                {{ 'streamly.examples.form.placeholder2' | translate }}
+                {{ 'streamly.examples.form.error1' | translate }}
+              </mat-error>
+            </mat-form-field>
+          </div>
+          <div class="row buttons d-flex justify-content-between pad">
+            <button mat-raised-button color="primary" [ngClass]="routeAnimationsElements">
+              {{ 'streamly.examples.form.send' | translate }}
+            </button>
+          </div>
+        </mat-card>
+      </div>
+    </div>
+  </form>
+
+</div>

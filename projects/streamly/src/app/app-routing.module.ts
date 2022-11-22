@@ -11,27 +11,23 @@ const routes: Routes = [
   {
     path: 'home',
     loadChildren: () =>
-      import('./features/home/home.module').then((m) => m.HomeModule)
+      import('./pages/home/home.module').then((m) => m.HomeModule)
   },
   {
     path: 'watch',
     canActivate: [AuthGuardService],
     loadChildren: () =>
-      import('./features/watch/watch.module').then((m) => m.WatchModule)
+      import('./pages/watch/watch.module').then((m) => m.WatchModule)
   },
   {
     path: 'settings',
     loadChildren: () =>
-      import('./features/settings/settings.module').then(
-        (m) => m.SettingsModule
-      )
+      import('./pages/settings/settings.module').then((m) => m.SettingsModule)
   },
   {
-    path: 'examples',
+    path: 'auth',
     loadChildren: () =>
-      import('./features/examples/examples.module').then(
-        (m) => m.ExamplesModule
-      )
+      import('./pages/auth/auth.module').then((m) => m.AuthModule)
   },
   {
     path: '**',

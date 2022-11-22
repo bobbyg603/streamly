@@ -27,25 +27,14 @@
 @import 'styles-reset.scss-theme';
 @import './app/app/app.component.scss-theme';
 @import './app/shared/big-input/big-input/big-input.component.scss-theme';
-@import './app/features/home/home/home.component.scss-theme';
-@import './app/features/examples/notifications/components/notifications.component.scss-theme';
-@import './app/features/examples/todos/components/todos-container.component.scss-theme';
-@import './app/features/examples/stock-market/components/stock-market-container.component.scss-theme';
-@import './app/features/examples/theming/parent/parent.component.scss-theme';
-@import './app/features/examples/theming/child/child.component.scss-theme';
-@import './app/features/examples/examples/examples.component.scss-theme';
+@import './app/pages/home/home/home.component.scss-theme';
+@import './app/pages/auth/auth/auth.component.scss-theme';
 
 @mixin custom-components-theme($theme) {
   @include streamly-styles-reset-theme($theme);
   @include streamly-app-component-theme($theme);
   @include streamly-home-component-theme($theme);
-  @include streamly-big-input-component-theme($theme);
-  @include streamly-notifications-component-theme($theme);
-  @include streamly-todos-container-component-theme($theme);
-  @include streamly-stock-market-container-component-theme($theme);
-  @include streamly-parent-component-theme($theme);
-  @include streamly-child-component-theme($theme);
-  @include streamly-examples-component-theme($theme);
+  @include streamly-auth-component-theme($theme);
 }
 
 .default-theme {
