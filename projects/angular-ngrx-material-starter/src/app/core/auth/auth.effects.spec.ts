@@ -58,7 +58,7 @@ describe('AuthEffects', () => {
       expect(metadata.logout?.dispatch).toEqual(false);
     });
 
-    it('should call setItem on LocalStorageService and navigate to about', () => {
+    it('should call setItem on LocalStorageService and navigate to home', () => {
       scheduler.run((helpers) => {
         const { cold } = helpers;
         const logoutAction = authLogout();

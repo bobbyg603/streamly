@@ -9,7 +9,7 @@
                 <name>streamly</name>
                 <children>
                     <folder_node>
-                        <name>about</name>
+                        <name>home</name>
                         <children>
                             <concept_node>
                                 <name>change-theme</name>
@@ -1236,7 +1236,7 @@
                         <name>menu</name>
                         <children>
                             <concept_node>
-                                <name>about</name>
+                                <name>home</name>
                                 <definition_loaded>false</definition_loaded>
                                 <description></description>
                                 <comment></comment>

@@ -4,11 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { SharedModule } from '../../../shared/shared.module';
 
-import { AboutComponent } from './about.component';
+import { HomeComponent } from './home.component';
 
-describe('AboutComponent', () => {
-  let component: AboutComponent;
-  let fixture: ComponentFixture<AboutComponent>;
+describe('HomeComponent', () => {
+  let component: HomeComponent;
+  let fixture: ComponentFixture<HomeComponent>;
 
   beforeEach(
     waitForAsync(() => {
@@ -18,13 +18,13 @@ describe('AboutComponent', () => {
           NoopAnimationsModule,
           TranslateModule.forRoot()
         ],
-        declarations: [AboutComponent]
+        declarations: [HomeComponent]
       }).compileComponents();
     })
   );
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AboutComponent);
+    fixture = TestBed.createComponent(HomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
