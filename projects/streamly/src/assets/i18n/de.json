@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "Thema ändern",
   "streamly.home.check-blogs": "oder lese weitere Blogs darüber",
-  "streamly.home.contributors.description1": "Möchtest du auch zu einem Open Source Projekt mit Angular beitragen?",
-  "streamly.home.contributors.description2": "Hinterlasse deine Spuren und werde Teil eines wachsenden Teams!",
-  "streamly.home.contributors.description3": "Werfe einen ersten Blick auf",
-  "streamly.home.contributors.description4": " und ",
-  "streamly.home.contributors.guide": "die Anleitung für Beitragende",
-  "streamly.home.contributors.issues": "offene Probleme",
-  "streamly.home.contributors.title": "Beitragende",
   "streamly.home.get-notified.description": "ein Twitterbot, der dich über die neusten Versionen deiner Lieblingsframeworks & -bibliotheken informiert!",
   "streamly.home.get-notified.follow": "Folge",
   "streamly.home.get-notified.title": "Werde über neue Versionen informiert",

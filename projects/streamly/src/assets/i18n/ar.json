@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "غير المظهر",
   "streamly.home.check-blogs": "أو تفحص المدونات",
-  "streamly.home.contributors.description1": "هل ترغب في المساهمة في ال open source باستخدام Angular؟",
-  "streamly.home.contributors.description2": "اترك بصمتك وانضم إلى فريق المساهمين المتزايد!",
-  "streamly.home.contributors.description3": "ابدأ بإلقاء نظرة على ",
-  "streamly.home.contributors.description4": " و ",
-  "streamly.home.contributors.guide": "دليل المساهم",
-  "streamly.home.contributors.issues": "القضايا المفتوحة",
-  "streamly.home.contributors.title": "المساهمون",
   "streamly.home.get-notified.description": "روبوت على Twitter يساعدك على البقاء على اطلاع دائم بإصدارات المكتبات والأطر الأمامية الشهيرة!",
   "streamly.home.get-notified.follow": "إتبع",
   "streamly.home.get-notified.title": "تلقى إشعارات عن الإصدارات الحديثة",

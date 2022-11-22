@@ -1,5 +1,5 @@
 {
-  "name": "angular-ngrx-material-starter",
+  "name": "streamly",
   "version": "12.4.0",
   "license": "MIT",
   "scripts": {
@@ -11,15 +11,11 @@
     "lint": "eslint --color -c .eslintrc --ext .ts .",
     "test": "npm run lint && ng test --configuration=test",
     "watch": "ng test --configuration=test --browsers ChromeHeadless --watch --reporters dots",
-    "ci": "npm run format:test && npm run lint && ng test --configuration=test --browsers ChromeTravisCi --code-coverage && npm run build:prod -- --deploy-url /angular-ngrx-material-starter/ --base-href /angular-ngrx-material-starter/",
+    "ci": "npm run format:test && npm run lint && ng test --configuration=test --browsers ChromeTravisCi --code-coverage && npm run build:prod -- --deploy-url /streamly/ --base-href /streamly/",
     "format:write": "prettier projects/**/*.{ts,json,md,scss} --write",
     "format:test": "prettier projects/**/*.{ts,json,md,scss} --list-different",
     "release": "standard-version && git push --follow-tags origin master",
-    "analyze": "npm run build:prod -- --stats-json && webpack-bundle-analyzer ./dist/angular-ngrx-material-starter/stats.json",
-    "server": "node ./projects/server/server.js",
-    "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate && node .all-contributors-html.js",
-    "contributors:check": "all-contributors check"
+    "analyze": "npm run build:prod -- --stats-json && webpack-bundle-analyzer ./dist/streamly/stats.json"
   },
   "husky": {
     "hooks": {
@@ -79,7 +75,6 @@
     "@typescript-eslint/eslint-plugin": "^4.7.0",
     "@typescript-eslint/eslint-plugin-tslint": "^4.7.0",
     "@typescript-eslint/parser": "^4.7.0",
-    "all-contributors-cli": "^6.19.0",
     "assert": "^2.0.0",
     "codelyzer": "^6.0.0",
     "eslint": "^7.13.0",

@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "Mudar Tema",
   "streamly.home.check-blogs": "ou estude nos blogs abaixo",
-  "streamly.home.contributors.description1": "Quer começar a contribuir para o código aberto com o Angular?",
-  "streamly.home.contributors.description2": "Deixe sua marca e junte-se à crescente equipe de colaboradores!",
-  "streamly.home.contributors.description3": "Começe olhando em",
-  "streamly.home.contributors.description4": " e ",
-  "streamly.home.contributors.guide": "Guia para contribuidores",
-  "streamly.home.contributors.issues": "abra issues",
-  "streamly.home.contributors.title": "Contribuidores",
   "streamly.home.get-notified.description": "Um bot do Twitter que ajuda você a manter-se atualizado com lançamentos de frameworks e bibliotecas populares do frontend!",
   "streamly.home.get-notified.follow": "Siga",
   "streamly.home.get-notified.title": "Seja notificado sobre novos lançamentos",

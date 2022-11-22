@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "Change Theme",
   "streamly.home.check-blogs": "or check blogs home",
-  "streamly.home.contributors.description1": "Want to start contributing to open source with Angular?",
-  "streamly.home.contributors.description2": "Leave your mark and join the growing team of contributors!",
-  "streamly.home.contributors.description3": "Get started by having a look on ",
-  "streamly.home.contributors.description4": " and ",
-  "streamly.home.contributors.guide": "Contributor guide",
-  "streamly.home.contributors.issues": "open issues",
-  "streamly.home.contributors.title": "Contributors",
   "streamly.home.get-notified.description": "a Twitter bot that helps you to stay up to date with releases of popular frontend frameworks & libraries!",
   "streamly.home.get-notified.follow": "Follow",
   "streamly.home.get-notified.title": "Get notified home new releases",

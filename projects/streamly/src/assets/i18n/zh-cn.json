@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "更改主题",
   "streamly.home.check-blogs": "或者查看以下博客文章",
-  "streamly.home.contributors.description1": "想为开源 Angular 提供贡献？",
-  "streamly.home.contributors.description2": "留下您的足迹，加入快速成长的贡献者团队！",
-  "streamly.home.contributors.description3": "查看以下内容开始",
-  "streamly.home.contributors.description4": " 和 ",
-  "streamly.home.contributors.guide": "贡献者指引",
-  "streamly.home.contributors.issues": "现存问题",
-  "streamly.home.contributors.title": "贡献者",
   "streamly.home.get-notified.description": "一个帮您得到著名的前端类库的最新更新消息的 Twitter 机器人！",
   "streamly.home.get-notified.follow": "关注",
   "streamly.home.get-notified.title": "有新版本通知我",

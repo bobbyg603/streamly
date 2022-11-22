@@ -1,13 +1,6 @@
 {
   "streamly.home.change-theme": "Zmeniť Tému",
   "streamly.home.check-blogs": "alebo si pozri blogy o",
-  "streamly.home.contributors.description1": "Chceš začať prispievať do open source s Angularom?",
-  "streamly.home.contributors.description2": "Zanechaj svoju stopu a pridaj sa do rastúceho tímu prispievateľov!",
-  "streamly.home.contributors.description3": "Začni tým že si pozrieš ",
-  "streamly.home.contributors.description4": " a ",
-  "streamly.home.contributors.guide": "prispievateľskú príručku",
-  "streamly.home.contributors.issues": "list otvorených problémov ",
-  "streamly.home.contributors.title": "Prispievatelia",
   "streamly.home.get-notified.description": ", Twitter bota ktorý ti pomôže zostať aktuálnym s vydaniami populárnych frontend frameworkov a knižníc!",
   "streamly.home.get-notified.follow": "Sleduj",
   "streamly.home.get-notified.title": "Upozornenia na nové vydania",
