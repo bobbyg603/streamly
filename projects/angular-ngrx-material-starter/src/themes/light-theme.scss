@@ -1,15 +1,15 @@
 @use '@angular/material' as mat;
 
-$anms-light-primary: mat.define-palette(mat.$grey-palette, 200, 500, 300);
-$anms-light-accent: mat.define-palette(mat.$brown-palette, 200);
-$anms-light-warn: mat.define-palette(mat.$deep-orange-palette, 200);
+$streamly-light-primary: mat.define-palette(mat.$grey-palette, 200, 500, 300);
+$streamly-light-accent: mat.define-palette(mat.$brown-palette, 200);
+$streamly-light-warn: mat.define-palette(mat.$deep-orange-palette, 200);
 
-$anms-light-theme: mat.define-light-theme(
+$streamly-light-theme: mat.define-light-theme(
   (
     color: (
-      primary: $anms-light-primary,
-      accent: $anms-light-accent,
-      warn: $anms-light-warn
+      primary: $streamly-light-primary,
+      accent: $streamly-light-accent,
+      warn: $streamly-light-warn
     )
   )
 );
