@@ -13,11 +13,9 @@ const routes: Routes = [
       import('./features/home/home.module').then((m) => m.HomeModule)
   },
   {
-    path: 'feature-list',
+    path: 'watch',
     loadChildren: () =>
-      import('./features/feature-list/feature-list.module').then(
-        (m) => m.FeatureListModule
-      )
+      import('./features/watch/watch.module').then((m) => m.WatchModule)
   },
   {
     path: 'settings',

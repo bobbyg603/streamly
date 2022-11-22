@@ -4,11 +4,11 @@ import { TranslateModule } from '@ngx-translate/core';
 
 import { SharedModule } from '../../../shared/shared.module';
 
-import { FeatureListComponent } from './feature-list.component';
+import { WatchComponent } from './watch.component';
 
-describe('FeatureListComponent', () => {
-  let component: FeatureListComponent;
-  let fixture: ComponentFixture<FeatureListComponent>;
+describe('WatchComponent', () => {
+  let component: WatchComponent;
+  let fixture: ComponentFixture<WatchComponent>;
 
   beforeEach(
     waitForAsync(() => {
@@ -18,13 +18,13 @@ describe('FeatureListComponent', () => {
           NoopAnimationsModule,
           TranslateModule.forRoot()
         ],
-        declarations: [FeatureListComponent]
+        declarations: [WatchComponent]
       }).compileComponents();
     })
   );
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(FeatureListComponent);
+    fixture = TestBed.createComponent(WatchComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

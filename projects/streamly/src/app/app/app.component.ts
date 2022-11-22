@@ -36,7 +36,7 @@ export class AppComponent implements OnInit {
   logo = 'assets/logo.png';
   languages = ['en', 'de', 'sk', 'fr', 'es', 'pt-br', 'zh-cn', 'he', 'ar'];
   navigation = [
-    { link: 'feature-list', label: 'streamly.menu.features' },
+    { link: 'watch', label: 'streamly.menu.watch' },
     { link: 'examples', label: 'streamly.menu.examples' }
   ];
   navigationSideMenu = [

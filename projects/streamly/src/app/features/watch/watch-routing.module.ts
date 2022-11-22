@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { FeatureListComponent } from './feature-list/feature-list.component';
+import { WatchComponent } from './watch/watch.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FeatureListComponent,
-    data: { title: 'streamly.menu.features' }
+    component: WatchComponent,
+    data: { title: 'streamly.menu.watch' }
   }
 ];
 
@@ -15,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class FeatureListRoutingModule {}
+export class HomeRoutingModule {}
