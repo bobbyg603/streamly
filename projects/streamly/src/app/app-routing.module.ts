@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule, PreloadAllModules } from '@angular/router';
+import { AuthGuardService } from './core/core.module';
 
 const routes: Routes = [
   {
@@ -14,6 +15,7 @@ const routes: Routes = [
   },
   {
     path: 'watch',
+    canActivate: [AuthGuardService],
     loadChildren: () =>
       import('./features/watch/watch.module').then((m) => m.WatchModule)
   },
